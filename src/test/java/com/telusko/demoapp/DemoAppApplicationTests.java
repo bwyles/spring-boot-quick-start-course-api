@@ -1,4 +1,4 @@
-package com.telusko.DemoApp;
+package com.telusko.demoapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

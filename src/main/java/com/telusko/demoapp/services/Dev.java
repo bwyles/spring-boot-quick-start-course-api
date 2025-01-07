@@ -1,4 +1,4 @@
-package com.telusko.DemoApp;
+package com.telusko.demoapp.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

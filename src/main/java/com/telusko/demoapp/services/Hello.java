@@ -1,4 +1,4 @@
-package com.telusko.DemoApp;
+package com.telusko.demoapp.services;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

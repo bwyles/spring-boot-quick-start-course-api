@@ -1,5 +1,6 @@
-package com.telusko.DemoApp;
+package com.telusko.demoapp;
 
+import com.telusko.demoapp.services.Dev;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

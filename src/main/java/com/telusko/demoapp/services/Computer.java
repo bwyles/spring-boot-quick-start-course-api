@@ -1,4 +1,4 @@
-package com.telusko.DemoApp;
+package com.telusko.demoapp.services;
 
 public interface Computer {
     void compile();
