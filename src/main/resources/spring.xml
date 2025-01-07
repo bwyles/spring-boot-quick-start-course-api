@@ -4,13 +4,13 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="dev" class="org.example.Dev">
+    <bean id="dev" class="org.example.services.Dev">
     </bean>
 
-    <bean id="dev1" class="org.example.Dev">
+    <bean id="dev1" class="org.example.services.Dev">
     </bean>
 
-    <bean id="laptop" class="org.example.Laptop">
+    <bean id="laptop" class="org.example.services.Laptop">
     </bean>
 
 </beans>
