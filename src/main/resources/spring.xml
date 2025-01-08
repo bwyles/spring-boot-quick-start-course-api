@@ -5,7 +5,6 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="dev" class="org.example.services.Dev" autowire="byType">
-<!--        <property name="computer" ref="computer"/>-->
     </bean>
 
     <bean id="computer" class="org.example.services.Laptop" primary="true">
@@ -13,5 +12,4 @@
 
     <bean id="desk1" class="org.example.services.Desktop">
     </bean>
-
 </beans>
