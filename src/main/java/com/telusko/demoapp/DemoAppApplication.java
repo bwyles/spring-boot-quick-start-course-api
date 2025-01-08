@@ -9,11 +9,8 @@ import org.springframework.context.ApplicationContext;
 public class DemoAppApplication {
 
 	public static void main(String[] args) {
-
 		ApplicationContext context = SpringApplication.run(DemoAppApplication.class, args);
-
 		Dev obj = context.getBean(Dev.class);
 		obj.build();
 	}
-
 }
