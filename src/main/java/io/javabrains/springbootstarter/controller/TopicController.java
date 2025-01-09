@@ -1,5 +1,6 @@
-package io.javabrains.springbootstarter.topic;
+package io.javabrains.springbootstarter.controller;
 
+import io.javabrains.springbootstarter.dao.Topic;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
