@@ -1,6 +1,7 @@
 package io.javabrains.springbootstarter.service;
 
 import io.javabrains.springbootstarter.dao.Topic;
+import io.javabrains.springbootstarter.repository.TopicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

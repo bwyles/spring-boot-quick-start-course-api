@@ -1,4 +1,4 @@
-package io.javabrains.springbootstarter.service;
+package io.javabrains.springbootstarter.repository;
 
 import io.javabrains.springbootstarter.dao.Topic;
 import org.springframework.data.repository.CrudRepository;
