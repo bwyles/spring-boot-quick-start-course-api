@@ -1,0 +1,21 @@
+app:
+  name: My Bootcamp App
+  description: Welcome to ${app.name}
+
+db:
+  connection: "{connectionString: 'http://__', username: 'brandy', password: 'pass'}"
+  host: 127.0.0.1
+  port: 1200
+
+management:
+  endpoint.health.show-details: always
+  endpoints.web.exposure.include: "*"
+
+my:
+  greeting: Hello World, ${app.description}
+  list:
+    values: One,Two,Three
+
+spring:
+  application.name: course-api
+  jpa.hibernate.ddl-auto: update
